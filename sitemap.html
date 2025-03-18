@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitemap - Autocap Solution</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .sitemap-content {
+            padding: 120px 0 80px;
+        }
+        .sitemap-content .container {
+            max-width: 900px;
+        }
+        .sitemap-content h1 {
+            margin-bottom: 30px;
+            color: var(--dark-color);
+        }
+        .sitemap-section {
+            margin-bottom: 40px;
+        }
+        .sitemap-section h2 {
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        .sitemap-list {
+            list-style: none;
+            padding: 0;
+        }
+        .sitemap-list li {
+            margin-bottom: 15px;
+        }
+        .sitemap-list a {
+            display: flex;
+            align-items: center;
+            color: #555;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        .sitemap-list a:hover {
+            color: var(--primary-color);
+        }
+        .sitemap-list a i {
+            margin-right: 10px;
+            color: var(--primary-color);
+            width: 20px;
+            text-align: center;
+        }
+        .sitemap-list .description {
+            font-size: 0.9rem;
+            color: #777;
+            margin-top: 5px;
+            margin-left: 30px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+        .back-link:hover {
+            color: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Autocap<span>Solution</span></h1>
+            </div>
+            <nav>
+                <input type="checkbox" id="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="index.html#calculator">Loan Calculator</a></li>
+                    <li><a href="car-valuation.html">Car Valuation</a></li>
+                    <li><a href="index.html#testimonials">Testimonials</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sitemap Content -->
+    <section class="sitemap-content">
+        <div class="container">
+            <h1>Sitemap</h1>
+            <p>Welcome to the sitemap of Autocap Solution. This page provides an overview of our website's structure to help you navigate and find the information you need.</p>
+
+            <div class="sitemap-section">
+                <h2>Main Pages</h2>
+                <ul class="sitemap-list">
+                    <li>
+                        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                        <div class="description">Our main page with an overview of our services and features.</div>
+                    </li>
+                    <li>
+                        <a href="car-valuation.html"><i class="fas fa-car"></i> Car Valuation</a>
+                        <div class="description">Get an estimate of your car's market value.</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sitemap-section">
+                <h2>Home Page Sections</h2>
+                <ul class="sitemap-list">
+                    <li>
+                        <a href="index.html#services"><i class="fas fa-cogs"></i> Services</a>
+                        <div class="description">Explore our range of car financing and valuation services.</div>
+                    </li>
+                    <li>
+                        <a href="index.html#about"><i class="fas fa-info-circle"></i> About Us</a>
+                        <div class="description">Learn about Autocap Solution and our mission.</div>
+                    </li>
+                    <li>
+                        <a href="index.html#calculator"><i class="fas fa-calculator"></i> Loan Calculator</a>
+                        <div class="description">Calculate your EMI and plan your car loan.</div>
+                    </li>
+                    <li>
+                        <a href="index.html#testimonials"><i class="fas fa-quote-right"></i> Testimonials</a>
+                        <div class="description">Read what our customers say about our services.</div>
+                    </li>
+                    <li>
+                        <a href="index.html#contact"><i class="fas fa-envelope"></i> Contact</a>
+                        <div class="description">Get in touch with our team for inquiries and support.</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sitemap-section">
+                <h2>Car Valuation Page Sections</h2>
+                <ul class="sitemap-list">
+                    <li>
+                        <a href="car-valuation.html#valuation-form"><i class="fas fa-edit"></i> Valuation Form</a>
+                        <div class="description">Fill out details about your car to get a valuation.</div>
+                    </li>
+                    <li>
+                        <a href="car-valuation.html#how-it-works"><i class="fas fa-question-circle"></i> How It Works</a>
+                        <div class="description">Learn about our car valuation process.</div>
+                    </li>
+                    <li>
+                        <a href="car-valuation.html#features"><i class="fas fa-star"></i> Features</a>
+                        <div class="description">Discover the benefits of our car valuation service.</div>
+                    </li>
+                    <li>
+                        <a href="car-valuation.html#faq"><i class="fas fa-question"></i> FAQ</a>
+                        <div class="description">Find answers to frequently asked questions about car valuation.</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sitemap-section">
+                <h2>Legal Pages</h2>
+                <ul class="sitemap-list">
+                    <li>
+                        <a href="privacy-policy.html"><i class="fas fa-shield-alt"></i> Privacy Policy</a>
+                        <div class="description">Information about how we collect, use, and protect your data.</div>
+                    </li>
+                    <li>
+                        <a href="terms-conditions.html"><i class="fas fa-file-contract"></i> Terms and Conditions</a>
+                        <div class="description">The terms governing your use of our website and services.</div>
+                    </li>
+                    <li>
+                        <a href="disclaimer.html"><i class="fas fa-exclamation-circle"></i> Disclaimer</a>
+                        <div class="description">Important disclaimers regarding our website content and services.</div>
+                    </li>
+                    <li>
+                        <a href="sitemap.html"><i class="fas fa-sitemap"></i> Sitemap</a>
+                        <div class="description">This page - an overview of our website structure.</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sitemap-section">
+                <h2>Contact Information</h2>
+                <ul class="sitemap-list">
+                    <li>
+                        <a href="tel:+919106200792"><i class="fas fa-phone-alt"></i> +91 9106200792</a>
+                        <div class="description">Call us directly for immediate assistance.</div>
+                    </li>
+                    <li>
+                        <a href="mailto:info@autocapsolution.com"><i class="fas fa-envelope"></i> info@autocapsolution.com</a>
+                        <div class="description">Email us for inquiries and support.</div>
+                    </li>
+                    <li>
+                        <a href="https://maps.app.goo.gl/fVfwHsiEVrTWZtkg8" target="_blank"><i class="fas fa-map-marker-alt"></i> D-315, Ganesh Glory 11, Jagatpur Road, S.G. Highway, Ahmedabad, 382470</a>
+                        <div class="description">Visit our office location.</div>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Autocap<span>Solution</span></h2>
+                    <p>Finance Your Ride</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#calculator">Loan Calculator</a></li>
+                        <li><a href="car-valuation.html">Car Valuation</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="index.html#services">New Car Loans</a></li>
+                        <li><a href="index.html#services">Used Car Loans</a></li>
+                        <li><a href="index.html#services">Refinancing</a></li>
+                        <li><a href="index.html#services">Insurance</a></li>
+                        <li><a href="car-valuation.html">Car Valuation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/14svRGzhCeZ/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/919106200792" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/autocap_solution?igsh=MWpnNnoyeXJnaWQ2aQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="footer-newsletter">
+                        <h3>Subscribe to Newsletter</h3>
+                        <form id="newsletter-form">
+                            <input type="email" placeholder="Your Email" required>
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Autocap Solution. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="terms-conditions.html">Terms of Service</a>
+                    <a href="disclaimer.html">Disclaimer</a>
+                    <a href="sitemap.html">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
